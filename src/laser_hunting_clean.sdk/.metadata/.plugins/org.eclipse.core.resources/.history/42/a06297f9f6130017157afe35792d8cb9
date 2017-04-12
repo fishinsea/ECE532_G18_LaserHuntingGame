@@ -1,0 +1,259 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include "platform.h"
+#include "xil_printf.h"
+#include "xparameters.h"
+#include "glue.h"
+
+#include <xuartlite_l.h>
+#include <xintc_l.h>
+#include <xparameters.h>
+volatile unsigned int * timer_reg = (unsigned int *)(XPAR_GLUE_0_S00_AXI_BASEADDR + 44);
+volatile unsigned int * x_reg = (unsigned int *)(XPAR_GLUE_0_S00_AXI_BASEADDR);
+volatile unsigned int * y_reg = (unsigned int *)(XPAR_GLUE_0_S00_AXI_BASEADDR + 4);
+volatile unsigned int * x_reg_green = (unsigned int *)(XPAR_GLUE_0_S00_AXI_BASEADDR + 8);
+volatile unsigned int * y_reg_green = (unsigned int *)(XPAR_GLUE_0_S00_AXI_BASEADDR + 12);
+volatile unsigned int * select_reg = (unsigned int *)(XPAR_GLUE_0_S00_AXI_BASEADDR + 48);
+volatile unsigned int * score_reg = (unsigned int *)(XPAR_GLUE_0_S00_AXI_BASEADDR + 52);
+volatile unsigned int * x_target_reg = (unsigned int *)(XPAR_GLUE_0_S00_AXI_BASEADDR + 56);
+volatile unsigned int * y_target_reg = (unsigned int *)(XPAR_GLUE_0_S00_AXI_BASEADDR + 60);
+int paused = 0;
+int gamelength = 10000;
+int timer = 0;
+int currenttime = 99;
+/* uartlite interrupt service routine */
+void uart_int_handler(void *baseaddr_p) {
+	char c;
+	/* till uart FIFOs are empty */
+	while (!XUartLite_IsReceiveEmpty(XPAR_AXI_UARTLITE_0_BASEADDR)) {
+		/* read a character */
+		c = XUartLite_RecvByte(XPAR_AXI_UARTLITE_0_BASEADDR);
+		/* print character on hyperterminal (STDOUT) */
+		if (c == 'p') {
+			if (*(select_reg) == 0) {
+				*(select_reg) = 1;
+				paused = 1;
+			} else if (*(select_reg) == 1){
+				*(select_reg) = 0;
+				paused = 0;
+			}
+		}
+
+		if (c == 'r') {
+			currenttime = 99;
+            timer = 0;
+			*(score_reg) = 0;
+			*(select_reg) = 0;
+			paused = 0;
+
+		}
+	}
+}
+
+
+int main()
+{
+    init_platform();
+
+    /* Enable MicroBlaze exception */
+    microblaze_enable_interrupts();
+
+	/* Connect uart interrupt handler that will be called when an interrupt
+	* for the uart occurs*/
+	XIntc_RegisterHandler(XPAR_INTC_0_BASEADDR,XPAR_MICROBLAZE_0_AXI_INTC_AXI_UARTLITE_0_INTERRUPT_INTR,(XInterruptHandler)uart_int_handler,(void *)XPAR_AXI_UARTLITE_0_BASEADDR);
+
+	/* Start the interrupt controller */
+	XIntc_MasterEnable(XPAR_INTC_0_BASEADDR);
+
+	/* Enable uart interrupt in the interrupt controller */
+	XIntc_EnableIntr(XPAR_INTC_0_BASEADDR, XPAR_AXI_UARTLITE_0_INTERRUPT_MASK);
+
+	/* Enable Uartlite interrupt */
+	XUartLite_EnableIntr(XPAR_AXI_UARTLITE_0_BASEADDR);
+
+	srand(21345);
+
+	// start of game software
+    int x_tar = rand() % 300;
+    int y_tar = rand() % 300;
+    // 0 = stationary
+    // 1 = east
+    // 2 = se, etc. clockwise
+    // 8 = ne
+    int periodcounter = 0;
+    int direction = rand() % 8;
+	//xil_printf("targx: %d, targy: %d\n\r", x_tar, y_tar);
+    int speed = 0;
+    int score = 0;
+    int px = 0;
+    int py = 0;
+    int xfar = 0;
+    int yfar = 0;
+
+    *(score_reg) = score;
+    *(x_target_reg) = x_tar;
+    *(y_target_reg) = y_tar;
+
+    while (1) {
+    	// spin while paused
+    	while (paused) {}
+
+    	// delay loop
+    	for (int i = 0; i < 100000; i++){}
+
+    	// increment gamelength
+    	if ((timer % 100) == 0 ) {
+    	    *(timer_reg) = currenttime;
+    	    if(currenttime != 0){
+    	    currenttime -= 1;
+    	    }
+    	}
+
+    	if (timer >= gamelength) {
+    		paused = 1;
+    		*(select_reg) = 2;
+
+    	}
+
+    	timer += 1;
+
+    	if ((periodcounter % 50) == 0 ){
+    	    speed = (rand() % 3) + 1;
+        }
+
+
+    	if (periodcounter == 250){
+    	  	direction = rand() % 8;
+    	    periodcounter = 0;
+    	}
+
+    	// moving target
+    	switch (direction) {
+    	case 0:
+    		x_tar = x_tar;
+    		y_tar = y_tar;
+    		break;
+    	case 1:
+    		if (x_tar >= 300){
+    			x_tar = 0;
+    		} else {
+    			x_tar = x_tar + speed;
+    		}
+    		break;
+    	case 2:
+			if (x_tar >= 300){
+				x_tar = 0;
+			} else {
+				x_tar = x_tar + speed;
+			}
+			if (y_tar >= 300) {
+				y_tar = 0;
+			} else {
+				y_tar = y_tar + speed;
+			}
+			break;
+    	case 3:
+			if (y_tar >= 300) {
+				y_tar = 0;
+			} else {
+				y_tar = y_tar + speed;
+			}
+			break;
+    	case 4:
+			if (x_tar <= 0){
+				x_tar = 300;
+			} else {
+				x_tar = x_tar - speed;
+			}
+			if (y_tar >= 300) {
+				y_tar = 0;
+			} else {
+				y_tar = y_tar + speed;
+			}
+			break;
+    	case 5:
+			if (x_tar <= 0){
+				x_tar = 300;
+			} else {
+				x_tar = x_tar - speed;
+			}
+			break;
+    	case 6:
+			if (x_tar <= 0){
+				x_tar = 300;
+			} else {
+				x_tar = x_tar - speed;
+			}
+			if (y_tar <= 0) {
+				y_tar = 300;
+			} else {
+				y_tar = y_tar - speed;
+			}
+			break;
+    	case 7:
+			if (y_tar <= 0) {
+				y_tar = 300;
+			} else {
+				y_tar = y_tar - speed;
+			}
+			break;
+    	case 8:
+			if (x_tar >= 300){
+				x_tar = 0;
+			} else {
+				x_tar = x_tar + speed;
+			}
+			if (y_tar <= 0) {
+				y_tar = 300;
+			} else {
+				y_tar = y_tar - speed;
+			}
+			break;
+    	}
+
+    	*(x_target_reg) = x_tar;
+    	*(y_target_reg) = y_tar;
+
+    	// detect laser
+    	int x_det = *(x_reg);
+    	int y_det = *(y_reg);
+    	int x_det_green = *(x_reg_green);
+    	int y_det_green = *(y_reg_green);
+
+    	//xil_printf("x: %d, y: %d\n\r", x_det, y_det);
+
+    	if ((abs(x_det - x_tar) <= 15 && abs(y_det - y_tar) <= 15) || (abs(x_det_green - x_tar) <= 15 && abs(y_det_green - y_tar) <= 15) ) {
+    		score = *(score_reg);
+    		//xil_printf("targx: %d, targy: %d, score: %d\n\r", x_tar, y_tar, score);
+    		score ++;
+    		*(score_reg) = score;
+    		px = x_tar;
+    		py = y_tar;
+    		xfar = 0;
+    		yfar = 0;
+    		while (!xfar){
+    		x_tar = rand() % 280 + 10;
+    		if (abs(x_tar - px) >= 50){
+    			xfar = 1;
+    		}
+     		}
+
+    		while (!yfar){
+    		y_tar = rand() % 280 + 10;
+    		if (abs(y_tar - py) >= 50){
+    		    yfar = 1;
+    		}
+    		}
+    		*(x_target_reg) = x_tar;
+    		*(y_target_reg) = y_tar;
+    		direction = rand() % 8 + 1;
+    		periodcounter = 0;
+    	}
+    	else{
+    	    periodcounter++;
+    	}
+    }
+
+    cleanup_platform();
+    return 0;
+}

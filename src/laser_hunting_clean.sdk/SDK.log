@@ -1,0 +1,1215 @@
+13:46:58 INFO  : Launching XSDB server: xsdb.bat -interactive W:\Camera_LaserDetection\test_project\test_project.sdk\temp_xsdb_launch_script.tcl
+13:47:01 INFO  : XSDB server has started successfully.
+13:47:05 INFO  : Processing command line option -hwspec W:/Camera_LaserDetection/test_project/test_project.sdk/design_1_wrapper.hdf.
+13:53:10 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:55:15 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:55:15 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646025A" && level==0} -index 0' command is executed.
+13:55:17 INFO  : FPGA configured successfully with bitstream "W:/Camera_LaserDetection/test_project/test_project.sdk/design_1_wrapper_hw_platform_0/download.bit"
+13:56:33 INFO  : Processor reset is completed for microblaze_0
+14:01:22 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+14:01:25 INFO  : Processor reset is completed for microblaze_0
+14:04:54 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+14:04:57 INFO  : Processor reset is completed for microblaze_0
+14:06:35 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+14:06:36 INFO  : Processor reset is completed for microblaze_0
+14:06:51 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+14:06:53 INFO  : Processor reset is completed for microblaze_0
+14:09:35 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+14:09:36 INFO  : Processor reset is completed for microblaze_0
+16:56:41 INFO  : Launching XSDB server: xsdb.bat -interactive W:\GAME\project_1\project_1.sdk\temp_xsdb_launch_script.tcl
+16:56:44 INFO  : XSDB server has started successfully.
+16:56:47 INFO  : Processing command line option -hwspec W:/GAME/project_1/project_1.sdk/design_1_wrapper.hdf.
+16:57:02 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:57:27 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:57:27 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646025A" && level==0} -index 0' command is executed.
+16:57:29 INFO  : FPGA configured successfully with bitstream "W:/GAME/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/download.bit"
+16:57:41 INFO  : Processor reset is completed for microblaze_0
+17:11:51 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+17:12:04 INFO  : Launching XSDB server: xsdb.bat -interactive W:\GAME\project_1\project_1.sdk\temp_xsdb_launch_script.tcl
+17:12:05 INFO  : XSDB server has started successfully.
+17:12:05 INFO  : Processing command line option -hwspec W:/GAME/project_1/project_1.sdk/design_1_wrapper.hdf.
+17:12:05 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_1.
+17:12:06 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1490130644712,  Project:1490129644735
+17:12:06 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_1' is different from W:/GAME/project_1/project_1.sdk/design_1_wrapper.hdf.
+17:12:06 INFO  : Copied contents of W:/GAME/project_1/project_1.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_1\system.hdf.
+17:12:07 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+17:12:07 INFO  : Clearing existing target manager status.
+17:12:07 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+17:12:07 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+17:12:22 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:12:27 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646025A" && level==0} -index 0' command is executed.
+17:12:29 INFO  : FPGA configured successfully with bitstream "W:/GAME/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/download.bit"
+17:12:45 INFO  : Processor reset is completed for microblaze_0
+17:22:08 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1490131311406,  Project:1490130644712
+17:22:08 INFO  : Project design_1_wrapper_hw_platform_1's source hardware specification located at W:/GAME/project_1/project_1.sdk/design_1_wrapper.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+17:22:14 INFO  : Project design_1_wrapper_hw_platform_1's source hardware specification location will not be monitored anymore.
+17:22:18 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+17:22:26 INFO  : Launching XSDB server: xsdb.bat -interactive W:\GAME\project_1\project_1.sdk\temp_xsdb_launch_script.tcl
+17:22:27 INFO  : XSDB server has started successfully.
+17:22:27 INFO  : Processing command line option -hwspec W:/GAME/project_1/project_1.sdk/design_1_wrapper.hdf.
+17:22:46 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:22:51 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646025A" && level==0} -index 0' command is executed.
+17:22:53 INFO  : FPGA configured successfully with bitstream "W:/GAME/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/download.bit"
+17:24:04 INFO  : Launching XSDB server: xsdb.bat -interactive W:\GAME\project_1\project_1.sdk\temp_xsdb_launch_script.tcl
+17:24:05 INFO  : XSDB server has started successfully.
+17:24:06 INFO  : Processing command line option -hwspec W:/GAME/project_1/project_1.sdk/design_1_wrapper.hdf.
+17:24:07 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_2.
+17:24:37 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:24:37 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646025A" && level==0} -index 0' command is executed.
+17:24:40 INFO  : FPGA configured successfully with bitstream "W:/GAME/project_1/project_1.sdk/design_1_wrapper_hw_platform_2/download.bit"
+17:25:02 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:25:02 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646025A" && level==0} -index 0' command is executed.
+17:25:04 INFO  : FPGA configured successfully with bitstream "W:/GAME/project_1/project_1.sdk/design_1_wrapper_hw_platform_1/download.bit"
+17:33:22 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1490131983361,  Project:1490131311406
+17:33:22 INFO  : Project design_1_wrapper_hw_platform_2's source hardware specification located at W:/GAME/project_1/project_1.sdk/design_1_wrapper.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+17:33:28 INFO  : Project design_1_wrapper_hw_platform_2's source hardware specification location will not be monitored anymore.
+17:33:45 INFO  : Launching XSDB server: xsdb.bat -interactive W:\GAME\project_1\project_1.sdk\temp_xsdb_launch_script.tcl
+17:33:46 INFO  : XSDB server has started successfully.
+17:33:46 INFO  : Processing command line option -hwspec W:/GAME/project_1/project_1.sdk/design_1_wrapper.hdf.
+17:34:06 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:34:11 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646025A" && level==0} -index 0' command is executed.
+17:34:14 INFO  : FPGA configured successfully with bitstream "W:/GAME/project_1/project_1.sdk/design_1_wrapper_hw_platform_3/download.bit"
+17:34:35 INFO  : Processor reset is completed for microblaze_0
+17:35:44 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:35:44 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646025A" && level==0} -index 0' command is executed.
+17:35:46 INFO  : FPGA configured successfully with bitstream "W:/GAME/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/download.bit"
+17:36:26 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:36:26 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646025A" && level==0} -index 0' command is executed.
+17:36:28 INFO  : FPGA configured successfully with bitstream "W:/GAME/project_1/project_1.sdk/design_1_wrapper_hw_platform_3/download.bit"
+17:36:55 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:36:55 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646025A" && level==0} -index 0' command is executed.
+17:36:57 INFO  : FPGA configured successfully with bitstream "W:/GAME/project_1/project_1.sdk/design_1_wrapper_hw_platform_2/download.bit"
+17:37:16 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:37:16 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646025A" && level==0} -index 0' command is executed.
+17:37:19 INFO  : FPGA configured successfully with bitstream "W:/GAME/project_1/project_1.sdk/design_1_wrapper_hw_platform_1/download.bit"
+17:43:47 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:43:47 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646025A" && level==0} -index 0' command is executed.
+17:43:49 INFO  : FPGA configured successfully with bitstream "W:/GAME/project_1/project_1.sdk/design_1_wrapper_hw_platform_2/download.bit"
+17:44:17 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:44:17 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646025A" && level==0} -index 0' command is executed.
+17:44:20 INFO  : FPGA configured successfully with bitstream "W:/GAME/project_1/project_1.sdk/design_1_wrapper_hw_platform_1/download.bit"
+17:44:41 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:44:41 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646025A" && level==0} -index 0' command is executed.
+17:44:43 INFO  : FPGA configured successfully with bitstream "W:/GAME/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/download.bit"
+17:46:02 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+18:11:43 INFO  : Launching XSDB server: xsdb.bat -interactive W:\GAME\project_1\project_1.sdk\temp_xsdb_launch_script.tcl
+18:11:44 INFO  : XSDB server has started successfully.
+18:11:44 INFO  : Processing command line option -hwspec W:/GAME/project_1/project_1.sdk/design_1_wrapper.hdf.
+18:11:44 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_3.
+18:11:45 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1490134209554,  Project:1490131983361
+18:11:45 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_3' is different from W:/GAME/project_1/project_1.sdk/design_1_wrapper.hdf.
+18:11:45 INFO  : Copied contents of W:/GAME/project_1/project_1.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_3\system.hdf.
+18:11:46 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+18:11:46 INFO  : Clearing existing target manager status.
+18:11:47 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+18:11:47 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+18:12:08 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:12:13 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646025A" && level==0} -index 0' command is executed.
+18:12:16 INFO  : FPGA configured successfully with bitstream "W:/GAME/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/download.bit"
+18:12:38 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:12:38 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646025A" && level==0} -index 0' command is executed.
+18:12:40 INFO  : FPGA configured successfully with bitstream "W:/GAME/project_1/project_1.sdk/design_1_wrapper_hw_platform_3/download.bit"
+18:12:48 INFO  : Processor reset is completed for microblaze_0
+18:38:47 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:38:48 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646025A" && level==0} -index 0' command is executed.
+18:38:50 INFO  : FPGA configured successfully with bitstream "W:/GAME/project_1/project_1.sdk/design_1_wrapper_hw_platform_3/download.bit"
+18:38:57 INFO  : Processor reset is completed for microblaze_0
+18:40:11 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+18:40:19 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+18:40:20 INFO  : Processor reset is completed for microblaze_0
+18:41:01 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+18:41:41 INFO  : Launching XSDB server: xsdb.bat -interactive W:\GAME\project_1\project_1.sdk\temp_xsdb_launch_script.tcl
+18:41:42 INFO  : XSDB server has started successfully.
+18:41:43 INFO  : Processing command line option -hwspec W:/GAME/project_1/project_1.sdk/design_1_wrapper.hdf.
+18:41:43 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_3.
+18:41:56 INFO  : Processor reset is completed for microblaze_0
+18:42:08 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:42:08 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646025A" && level==0} -index 0' command is executed.
+18:42:10 INFO  : FPGA configured successfully with bitstream "W:/GAME/project_1/project_1.sdk/design_1_wrapper_hw_platform_3/download.bit"
+18:42:29 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+18:42:32 INFO  : Processor reset is completed for microblaze_0
+18:43:43 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+15:37:01 INFO  : Launching XSDB server: xsdb.bat -interactive W:\GAME\ver1.1_test\ver1.1_test.sdk\temp_xsdb_launch_script.tcl
+15:37:05 INFO  : XSDB server has started successfully.
+15:37:10 INFO  : Processing command line option -hwspec W:/GAME/ver1.1_test/ver1.1_test.sdk/design_1_wrapper.hdf.
+15:39:03 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:39:04 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646025A" && level==0} -index 0' command is executed.
+15:39:06 INFO  : FPGA configured successfully with bitstream "W:/GAME/ver1.1_test/ver1.1_test.sdk/design_1_wrapper_hw_platform_4/download.bit"
+15:40:41 INFO  : Processor reset is completed for microblaze_0
+15:40:55 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:40:56 INFO  : Processor reset is completed for microblaze_0
+16:19:35 INFO  : Launching XSDB server: xsdb.bat -interactive W:\GAME\ver1.2_interrupts\ver1.2_interrupts.sdk\temp_xsdb_launch_script.tcl
+16:19:37 INFO  : XSDB server has started successfully.
+16:19:38 INFO  : Processing command line option -hwspec W:/GAME/ver1.2_interrupts/ver1.2_interrupts.sdk/design_1_wrapper.hdf.
+16:33:08 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1490301066926,  Project:1490300302564
+16:33:08 INFO  : Project design_1_wrapper_hw_platform_5's source hardware specification located at W:/GAME/ver1.2_interrupts/ver1.2_interrupts.sdk/design_1_wrapper.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+16:33:15 INFO  : Project design_1_wrapper_hw_platform_5's source hardware specification location will not be monitored anymore.
+16:37:15 INFO  : Launching XSDB server: xsdb.bat -interactive W:\GAME\ver1.2_interrupts\ver1.2_interrupts.sdk\temp_xsdb_launch_script.tcl
+16:37:16 INFO  : XSDB server has started successfully.
+16:37:16 INFO  : Processing command line option -hwspec W:/GAME/ver1.2_interrupts/ver1.2_interrupts.sdk/design_1_wrapper.hdf.
+16:46:51 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:46:51 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646025A" && level==0} -index 0' command is executed.
+16:46:53 INFO  : FPGA configured successfully with bitstream "W:/GAME/ver1.2_interrupts/ver1.2_interrupts.sdk/design_1_wrapper_hw_platform_6/download.bit"
+16:47:05 WARN  : Unable to obtain port 2350 for use by XMD, java.net.SocketException: Unrecognized Windows Sockets error: 0: JVM_Bind
+16:47:25 ERROR : Unexpected error while launching program.
+com.xilinx.sdk.targetmanager.TMException: 
+    Failed to claim JTAG Device 1 for debug. Check if it's
+    in use by other client for debug
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.connectToProcessor(TM.java:484)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:451)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:616)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+16:47:35 ERROR : Unexpected error while launching program.
+com.xilinx.sdk.targetmanager.TMException: 
+    Failed to claim JTAG Device 1 for debug. Check if it's
+    in use by other client for debug
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.connectToProcessor(TM.java:484)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:451)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:616)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+16:47:57 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:47:57 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646025A" && level==0} -index 0' command is executed.
+16:47:59 INFO  : FPGA configured successfully with bitstream "W:/GAME/ver1.2_interrupts/ver1.2_interrupts.sdk/design_1_wrapper_hw_platform_6/download.bit"
+16:48:09 ERROR : Unexpected error while launching program.
+com.xilinx.sdk.targetmanager.TMException: 
+    Failed to claim JTAG Device 1 for debug. Check if it's
+    in use by other client for debug
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.connectToProcessor(TM.java:484)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:451)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:616)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+16:49:05 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:49:05 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646025A" && level==0} -index 0' command is executed.
+16:49:07 INFO  : FPGA configured successfully with bitstream "W:/GAME/ver1.2_interrupts/ver1.2_interrupts.sdk/design_1_wrapper_hw_platform_6/download.bit"
+16:50:08 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:50:08 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646025A" && level==0} -index 0' command is executed.
+16:50:10 INFO  : FPGA configured successfully with bitstream "W:/GAME/ver1.2_interrupts/ver1.2_interrupts.sdk/design_1_wrapper_hw_platform_6/download.bit"
+16:50:18 INFO  : Processor reset is completed for microblaze_0
+16:50:54 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:50:54 INFO  : Processor reset is completed for microblaze_0
+17:09:02 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1490303329385,  Project:1490301066926
+17:09:02 INFO  : Project design_1_wrapper_hw_platform_6's source hardware specification located at W:/GAME/ver1.2_interrupts/ver1.2_interrupts.sdk/design_1_wrapper.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+17:09:22 INFO  : Copied contents of W:/GAME/ver1.2_interrupts/ver1.2_interrupts.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_6\system.hdf.
+17:09:22 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+17:09:32 INFO  : 
+17:09:33 INFO  : Updating hardware inferred compiler options for interrupts.
+17:09:33 INFO  : Clearing existing target manager status.
+17:09:33 INFO  : Closing and re-opening the MSS file of ther project interrupts_bsp
+17:09:33 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+17:09:33 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+17:11:44 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:11:44 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646025A" && level==0} -index 0' command is executed.
+17:11:46 INFO  : FPGA configured successfully with bitstream "W:/GAME/ver1.2_interrupts/ver1.2_interrupts.sdk/design_1_wrapper_hw_platform_6/download.bit"
+17:11:53 INFO  : Processor reset is completed for microblaze_0
+17:11:55 ERROR : Port COM5 is already in use.
+17:11:56 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Cannot perform the Debug Command, Current Processor State is "Running"
+
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(TM.java:686)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(AppRunner.java:129)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:637)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+17:12:39 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:12:39 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646025A" && level==0} -index 0' command is executed.
+17:12:41 INFO  : FPGA configured successfully with bitstream "W:/GAME/ver1.2_interrupts/ver1.2_interrupts.sdk/design_1_wrapper_hw_platform_6/download.bit"
+17:13:33 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+17:13:42 INFO  : Launching XSDB server: xsdb.bat -interactive W:\GAME\ver1.2_interrupts\ver1.2_interrupts.sdk\temp_xsdb_launch_script.tcl
+17:13:43 INFO  : XSDB server has started successfully.
+17:13:43 INFO  : Processing command line option -hwspec W:/GAME/ver1.2_interrupts/ver1.2_interrupts.sdk/design_1_wrapper.hdf.
+17:13:43 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_6.
+17:14:15 INFO  : Processor reset is completed for microblaze_0
+17:20:22 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:20:27 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646025A" && level==0} -index 0' command is executed.
+17:20:29 INFO  : FPGA configured successfully with bitstream "W:/GAME/ver1.2_interrupts/ver1.2_interrupts.sdk/design_1_wrapper_hw_platform_6/download.bit"
+17:20:47 INFO  : Processor reset is completed for microblaze_0
+17:21:06 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:21:08 INFO  : Processor reset is completed for microblaze_0
+17:21:39 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:21:40 INFO  : Processor reset is completed for microblaze_0
+17:23:56 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:24:04 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:24:06 INFO  : Processor reset is completed for microblaze_0
+17:24:43 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:24:44 INFO  : Processor reset is completed for microblaze_0
+17:26:52 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:26:53 INFO  : Processor reset is completed for microblaze_0
+17:28:19 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:28:19 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646025A" && level==0} -index 0' command is executed.
+17:28:21 INFO  : FPGA configured successfully with bitstream "W:/GAME/ver1.2_interrupts/ver1.2_interrupts.sdk/design_1_wrapper_hw_platform_6/download.bit"
+17:28:38 INFO  : Processor reset is completed for microblaze_0
+17:29:24 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:29:27 INFO  : Processor reset is completed for microblaze_0
+17:30:09 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:30:10 INFO  : Processor reset is completed for microblaze_0
+17:30:47 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:30:48 INFO  : Processor reset is completed for microblaze_0
+17:33:03 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:33:04 INFO  : Processor reset is completed for microblaze_0
+17:33:43 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:33:45 INFO  : Processor reset is completed for microblaze_0
+17:35:53 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:35:54 INFO  : Processor reset is completed for microblaze_0
+17:38:18 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: The program file specified in the launch configuration does not exist
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:580)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+17:39:04 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:39:04 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646025A" && level==0} -index 0' command is executed.
+17:39:07 INFO  : FPGA configured successfully with bitstream "W:/GAME/ver1.2_interrupts/ver1.2_interrupts.sdk/design_1_wrapper_hw_platform_6/download.bit"
+17:39:57 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:39:58 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646025A" && level==0} -index 0' command is executed.
+17:40:00 INFO  : FPGA configured successfully with bitstream "W:/GAME/ver1.2_interrupts/ver1.2_interrupts.sdk/design_1_wrapper_hw_platform_6/download.bit"
+17:40:14 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+17:40:23 INFO  : Launching XSDB server: xsdb.bat -interactive W:\GAME\ver1.2_interrupts\ver1.2_interrupts.sdk\temp_xsdb_launch_script.tcl
+17:40:24 INFO  : XSDB server has started successfully.
+17:40:24 INFO  : Processing command line option -hwspec W:/GAME/ver1.2_interrupts/ver1.2_interrupts.sdk/design_1_wrapper.hdf.
+17:40:24 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_6.
+17:40:33 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: The program file specified in the launch configuration does not exist
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:580)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+17:40:53 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+17:41:00 INFO  : Launching XSDB server: xsdb.bat -interactive W:\GAME\ver1.2_interrupts\ver1.2_interrupts.sdk\temp_xsdb_launch_script.tcl
+17:41:01 INFO  : XSDB server has started successfully.
+17:41:01 INFO  : Processing command line option -hwspec W:/GAME/ver1.2_interrupts/ver1.2_interrupts.sdk/design_1_wrapper.hdf.
+17:41:01 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_6.
+17:41:16 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:41:21 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646025A" && level==0} -index 0' command is executed.
+17:41:24 INFO  : FPGA configured successfully with bitstream "W:/GAME/ver1.2_interrupts/ver1.2_interrupts.sdk/design_1_wrapper_hw_platform_6/download.bit"
+17:43:16 INFO  : Launching XSDB server: xsdb.bat -interactive W:\GAME\ver1.2_interrupts\ver1.2_interrupts.sdk\temp_xsdb_launch_script.tcl
+17:43:17 INFO  : XSDB server has started successfully.
+17:43:17 INFO  : Processing command line option -hwspec W:/GAME/ver1.2_interrupts/ver1.2_interrupts.sdk/design_1_wrapper.hdf.
+17:43:17 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_6.
+17:43:37 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: The program file specified in the launch configuration does not exist
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:580)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+17:49:24 INFO  : Processor reset is completed for microblaze_0
+17:50:50 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:50:52 INFO  : Processor reset is completed for microblaze_0
+17:51:29 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:51:30 INFO  : Processor reset is completed for microblaze_0
+17:51:44 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:51:46 INFO  : Processor reset is completed for microblaze_0
+17:52:06 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:52:07 INFO  : Processor reset is completed for microblaze_0
+17:52:27 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+12:51:23 INFO  : Launching XSDB server: xsdb.bat -interactive W:\GAME\ver1.2_interrupts\ver1.2_interrupts.sdk\temp_xsdb_launch_script.tcl
+12:51:25 INFO  : XSDB server has started successfully.
+12:51:27 INFO  : Processing command line option -hwspec W:/GAME/ver1.2_interrupts/ver1.2_interrupts.sdk/design_1_wrapper.hdf.
+12:51:28 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_6.
+12:51:28 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1490373962615,  Project:1490303329385
+12:51:28 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_6' is different from W:/GAME/ver1.2_interrupts/ver1.2_interrupts.sdk/design_1_wrapper.hdf.
+12:51:28 INFO  : Copied contents of W:/GAME/ver1.2_interrupts/ver1.2_interrupts.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_6\system.hdf.
+12:51:29 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+12:51:41 INFO  : 
+12:51:50 INFO  : 
+12:51:51 INFO  : Updating hardware inferred compiler options for game_over.
+12:51:52 INFO  : Updating hardware inferred compiler options for interrupts.
+12:51:52 INFO  : Clearing existing target manager status.
+12:52:17 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:52:18 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646025A" && level==0} -index 0' command is executed.
+12:52:20 INFO  : FPGA configured successfully with bitstream "W:/GAME/ver1.2_interrupts/ver1.2_interrupts.sdk/design_1_wrapper_hw_platform_6/download.bit"
+12:52:31 INFO  : Processor reset is completed for microblaze_0
+12:52:55 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+12:52:56 INFO  : Processor reset is completed for microblaze_0
+12:53:17 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+13:11:29 INFO  : Launching XSDB server: xsdb.bat -interactive W:\GAME\ver1.3_audio\ver1.3_audio.sdk\temp_xsdb_launch_script.tcl
+13:11:30 INFO  : XSDB server has started successfully.
+13:11:30 INFO  : Processing command line option -hwspec W:/GAME/ver1.3_audio/ver1.3_audio.sdk/design_1_wrapper.hdf.
+13:25:36 INFO  : Launching XSDB server: xsdb.bat -interactive W:\GAME\ver1.3_audio\ver1.3_audio.sdk\temp_xsdb_launch_script.tcl
+13:25:37 INFO  : XSDB server has started successfully.
+13:25:39 INFO  : Processing command line option -hwspec W:/GAME/ver1.3_audio/ver1.3_audio.sdk/design_1_wrapper.hdf.
+13:25:39 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+13:26:16 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:26:21 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646025A" && level==0} -index 0' command is executed.
+13:26:23 INFO  : FPGA configured successfully with bitstream "W:/GAME/ver1.3_audio/ver1.3_audio.sdk/design_1_wrapper_hw_platform_6/download.bit"
+13:26:40 INFO  : Processor reset is completed for microblaze_0
+13:30:26 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+13:30:28 INFO  : Processor reset is completed for microblaze_0
+13:30:49 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+13:31:56 INFO  : Launching XSDB server: xsdb.bat -interactive W:\GAME\ver1.3_audio\ver1.3_audio.sdk\temp_xsdb_launch_script.tcl
+13:31:57 INFO  : XSDB server has started successfully.
+13:31:59 INFO  : Processing command line option -hwspec W:/GAME/ver1.3_audio/ver1.3_audio.sdk/design_1_wrapper.hdf.
+13:31:59 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+13:33:48 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:33:48 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646025A" && level==0} -index 0' command is executed.
+13:33:50 INFO  : FPGA configured successfully with bitstream "W:/GAME/ver1.3_audio/ver1.3_audio.sdk/design_1_wrapper_hw_platform_6/download.bit"
+13:34:15 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:34:15 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646025A" && level==0} -index 0' command is executed.
+13:34:17 INFO  : FPGA configured successfully with bitstream "W:/GAME/ver1.3_audio/ver1.3_audio.sdk/design_1_wrapper_hw_platform_0/download.bit"
+13:42:43 INFO  : Processor reset is completed for microblaze_0
+13:45:07 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+13:45:10 INFO  : Processor reset is completed for microblaze_0
+15:54:43 INFO  : Launching XSDB server: xsdb.bat -interactive W:\GAME\ver1.4_timer\ver1.4_timer.sdk\temp_xsdb_launch_script.tcl
+15:54:44 INFO  : XSDB server has started successfully.
+15:54:45 INFO  : Processing command line option -hwspec W:/GAME/ver1.4_timer/ver1.4_timer.sdk/design_1_wrapper.hdf.
+15:56:49 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:56:51 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646025A" && level==0} -index 0' command is executed.
+15:56:53 INFO  : FPGA configured successfully with bitstream "W:/GAME/ver1.4_timer/ver1.4_timer.sdk/design_1_wrapper_hw_platform_1/download.bit"
+15:57:08 INFO  : Processor reset is completed for microblaze_0
+15:57:09 ERROR : No such port: COM5
+16:03:06 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:03:06 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646025A" && level==0} -index 0' command is executed.
+16:03:09 INFO  : FPGA configured successfully with bitstream "W:/GAME/ver1.4_timer/ver1.4_timer.sdk/design_1_wrapper_hw_platform_1/download.bit"
+16:03:20 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:03:23 INFO  : Processor reset is completed for microblaze_0
+16:03:23 ERROR : No such port: COM5
+16:03:42 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:03:45 INFO  : Processor reset is completed for microblaze_0
+16:03:45 ERROR : No such port: COM5
+16:04:23 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:04:25 INFO  : Processor reset is completed for microblaze_0
+16:04:25 ERROR : No such port: COM5
+16:04:53 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:04:54 INFO  : Processor reset is completed for microblaze_0
+16:04:55 ERROR : No such port: COM5
+16:05:47 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:05:49 INFO  : Processor reset is completed for microblaze_0
+16:05:51 ERROR : No such port: COM5
+16:06:30 INFO  : Processor reset is completed for microblaze_0
+16:06:32 ERROR : No such port: COM5
+16:06:55 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:06:56 INFO  : Processor reset is completed for microblaze_0
+16:06:58 ERROR : No such port: COM5
+16:16:24 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1490386566650,  Project:1490384877317
+16:16:24 INFO  : Project design_1_wrapper_hw_platform_1's source hardware specification located at W:/GAME/ver1.4_timer/ver1.4_timer.sdk/design_1_wrapper.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+16:16:38 INFO  : Copied contents of W:/GAME/ver1.4_timer/ver1.4_timer.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_1\system.hdf.
+16:16:38 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+16:16:38 INFO  : Clearing existing target manager status.
+16:16:38 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+16:16:38 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+16:17:06 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:17:06 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646025A" && level==0} -index 0' command is executed.
+16:17:09 INFO  : FPGA configured successfully with bitstream "W:/GAME/ver1.4_timer/ver1.4_timer.sdk/design_1_wrapper_hw_platform_1/download.bit"
+16:17:18 INFO  : Processor reset is completed for microblaze_0
+16:17:18 ERROR : No such port: COM5
+16:17:18 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Cannot perform the Debug Command, Current Processor State is "Running"
+
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(TM.java:686)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(AppRunner.java:129)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:637)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+16:17:57 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+16:18:10 INFO  : Launching XSDB server: xsdb.bat -interactive W:\GAME\ver1.4_timer\ver1.4_timer.sdk\temp_xsdb_launch_script.tcl
+16:18:11 INFO  : XSDB server has started successfully.
+16:18:15 INFO  : Processing command line option -hwspec W:/GAME/ver1.4_timer/ver1.4_timer.sdk/design_1_wrapper.hdf.
+16:18:15 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_1.
+16:18:34 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:18:39 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646025A" && level==0} -index 0' command is executed.
+16:18:41 INFO  : FPGA configured successfully with bitstream "W:/GAME/ver1.4_timer/ver1.4_timer.sdk/design_1_wrapper_hw_platform_1/download.bit"
+16:19:03 INFO  : Processor reset is completed for microblaze_0
+16:20:27 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:20:28 INFO  : Processor reset is completed for microblaze_0
+16:21:17 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+13:39:31 INFO  : Launching XSDB server: xsdb.bat -interactive W:\GAMEtimer\ver1.4_timer\ver1.4_timer.sdk\temp_xsdb_launch_script.tcl
+13:39:32 INFO  : XSDB server has started successfully.
+13:39:41 INFO  : Processing command line option -hwspec W:/GAMEtimer/ver1.4_timer/ver1.4_timer.sdk/design_1_wrapper.hdf.
+13:44:54 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:44:54 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646025A" && level==0} -index 0' command is executed.
+13:44:57 INFO  : FPGA configured successfully with bitstream "W:/GAMEtimer/ver1.4_timer/ver1.4_timer.sdk/design_1_wrapper_hw_platform_2/download.bit"
+13:45:10 INFO  : Processor reset is completed for microblaze_0
+13:45:11 ERROR : No such port: COM9
+13:45:26 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+13:45:29 INFO  : Processor reset is completed for microblaze_0
+13:45:29 ERROR : No such port: COM9
+13:45:45 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+13:45:49 INFO  : Processor reset is completed for microblaze_0
+13:45:50 ERROR : No such port: COM9
+14:25:51 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1490725534878,  Project:1490722388046
+14:25:51 INFO  : Project design_1_wrapper_hw_platform_2's source hardware specification located at W:/GAMEtimer/ver1.4_timer/ver1.4_timer.sdk/design_1_wrapper.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+14:25:57 INFO  : Copied contents of W:/GAMEtimer/ver1.4_timer/ver1.4_timer.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_2\system.hdf.
+14:25:57 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+14:25:57 INFO  : Clearing existing target manager status.
+14:25:57 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+14:25:57 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+14:26:28 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:26:28 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646025A" && level==0} -index 0' command is executed.
+14:26:30 INFO  : FPGA configured successfully with bitstream "W:/GAMEtimer/ver1.4_timer/ver1.4_timer.sdk/design_1_wrapper_hw_platform_2/download.bit"
+14:26:40 INFO  : Processor reset is completed for microblaze_0
+14:26:40 ERROR : No such port: COM9
+14:26:40 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Cannot perform the Debug Command, Current Processor State is "Running"
+
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(TM.java:686)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(AppRunner.java:129)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:637)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+14:27:44 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:27:44 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646025A" && level==0} -index 0' command is executed.
+14:27:46 INFO  : FPGA configured successfully with bitstream "W:/GAMEtimer/ver1.4_timer/ver1.4_timer.sdk/design_1_wrapper_hw_platform_2/download.bit"
+14:28:24 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+14:28:50 INFO  : Launching XSDB server: xsdb.bat -interactive W:\GAMEtimer\ver1.4_timer\ver1.4_timer.sdk\temp_xsdb_launch_script.tcl
+14:28:51 INFO  : XSDB server has started successfully.
+14:28:53 INFO  : Processing command line option -hwspec W:/GAMEtimer/ver1.4_timer/ver1.4_timer.sdk/design_1_wrapper.hdf.
+14:28:53 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_2.
+14:29:15 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:29:20 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646025A" && level==0} -index 0' command is executed.
+14:29:22 INFO  : FPGA configured successfully with bitstream "W:/GAMEtimer/ver1.4_timer/ver1.4_timer.sdk/design_1_wrapper_hw_platform_2/download.bit"
+14:29:30 INFO  : Processor reset is completed for microblaze_0
+14:29:43 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+14:29:44 INFO  : Processor reset is completed for microblaze_0
+14:30:00 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+14:30:02 INFO  : Processor reset is completed for microblaze_0
+14:30:19 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+14:30:21 INFO  : Processor reset is completed for microblaze_0
+14:30:37 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+14:30:39 INFO  : Processor reset is completed for microblaze_0
+14:36:09 ERROR : Unexpected error while fetching XMD's response: 
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:209)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	at java.io.InputStreamReader.read(InputStreamReader.java:184)
+	at java.io.BufferedReader.fill(BufferedReader.java:161)
+	at java.io.BufferedReader.read(BufferedReader.java:182)
+	at com.xilinx.sdk.targetmanager.internal.json.XMDJSONProcess$CommandResultsReader.run(XMDJSONProcess.java:332)
+	at java.lang.Thread.run(Thread.java:745)
+14:36:09 ERROR : Zero sized response read from XMD. This indicates a communication error or a programming error.
+15:26:29 INFO  : Launching XSDB server: xsdb.bat -interactive W:\GAMEtimer\ver1.4_timer\ver1.4_timer.sdk\temp_xsdb_launch_script.tcl
+15:26:30 INFO  : XSDB server has started successfully.
+15:26:32 INFO  : Processing command line option -hwspec W:/GAMEtimer/ver1.4_timer/ver1.4_timer.sdk/design_1_wrapper.hdf.
+15:26:32 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_2.
+15:26:33 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1490729153843,  Project:1490725534878
+15:26:33 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_2' is different from W:/GAMEtimer/ver1.4_timer/ver1.4_timer.sdk/design_1_wrapper.hdf.
+15:26:33 INFO  : Copied contents of W:/GAMEtimer/ver1.4_timer/ver1.4_timer.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_2\system.hdf.
+15:26:33 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+15:26:33 INFO  : Clearing existing target manager status.
+15:26:34 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+15:26:34 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+15:32:34 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:32:36 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646025A" && level==0} -index 0' command is executed.
+15:32:38 INFO  : FPGA configured successfully with bitstream "W:/GAMEtimer/ver1.4_timer/ver1.4_timer.sdk/design_1_wrapper_hw_platform_2/download.bit"
+15:32:46 INFO  : Processor reset is completed for microblaze_0
+15:33:15 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:33:18 INFO  : Processor reset is completed for microblaze_0
+15:42:54 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:42:55 INFO  : Processor reset is completed for microblaze_0
+15:44:37 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:44:40 INFO  : Processor reset is completed for microblaze_0
+16:03:22 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:03:25 INFO  : Processor reset is completed for microblaze_0
+16:08:52 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1490731716515,  Project:1490729153843
+16:08:52 INFO  : Project design_1_wrapper_hw_platform_2's source hardware specification located at W:/GAMEtimer/ver1.4_timer/ver1.4_timer.sdk/design_1_wrapper.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+16:09:35 INFO  : Copied contents of W:/GAMEtimer/ver1.4_timer/ver1.4_timer.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_2\system.hdf.
+16:09:36 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+16:09:36 INFO  : Clearing existing target manager status.
+16:09:36 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+16:09:36 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+16:10:59 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:10:59 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646025A" && level==0} -index 0' command is executed.
+16:11:01 INFO  : FPGA configured successfully with bitstream "W:/GAMEtimer/ver1.4_timer/ver1.4_timer.sdk/design_1_wrapper_hw_platform_2/download.bit"
+16:11:11 INFO  : Processor reset is completed for microblaze_0
+16:11:13 ERROR : Port COM5 is already in use.
+16:11:13 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Cannot perform the Debug Command, Current Processor State is "Running"
+
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(TM.java:686)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(AppRunner.java:129)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:637)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+16:11:28 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+16:11:39 INFO  : Launching XSDB server: xsdb.bat -interactive W:\GAMEtimer\ver1.4_timer\ver1.4_timer.sdk\temp_xsdb_launch_script.tcl
+16:11:40 INFO  : XSDB server has started successfully.
+16:11:40 INFO  : Processing command line option -hwspec W:/GAMEtimer/ver1.4_timer/ver1.4_timer.sdk/design_1_wrapper.hdf.
+16:11:40 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_2.
+16:12:00 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:12:05 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646025A" && level==0} -index 0' command is executed.
+16:12:07 INFO  : FPGA configured successfully with bitstream "W:/GAMEtimer/ver1.4_timer/ver1.4_timer.sdk/design_1_wrapper_hw_platform_2/download.bit"
+16:12:17 INFO  : Processor reset is completed for microblaze_0
+16:36:57 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1490733376767,  Project:1490731716515
+16:36:57 INFO  : Project design_1_wrapper_hw_platform_2's source hardware specification located at W:/GAMEtimer/ver1.4_timer/ver1.4_timer.sdk/design_1_wrapper.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+16:36:59 INFO  : Copied contents of W:/GAMEtimer/ver1.4_timer/ver1.4_timer.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_2\system.hdf.
+16:37:00 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+16:37:00 INFO  : Clearing existing target manager status.
+16:37:00 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+16:37:00 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+16:37:26 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:37:26 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646025A" && level==0} -index 0' command is executed.
+16:37:29 INFO  : FPGA configured successfully with bitstream "W:/GAMEtimer/ver1.4_timer/ver1.4_timer.sdk/design_1_wrapper_hw_platform_2/download.bit"
+16:37:43 INFO  : Processor reset is completed for microblaze_0
+16:37:45 ERROR : Port COM5 is already in use.
+16:37:46 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Cannot perform the Debug Command, Current Processor State is "Running"
+
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(TM.java:686)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(AppRunner.java:129)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:637)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+16:37:52 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+16:38:08 INFO  : Launching XSDB server: xsdb.bat -interactive W:\GAMEtimer\ver1.4_timer\ver1.4_timer.sdk\temp_xsdb_launch_script.tcl
+16:38:09 INFO  : XSDB server has started successfully.
+16:38:10 INFO  : Processing command line option -hwspec W:/GAMEtimer/ver1.4_timer/ver1.4_timer.sdk/design_1_wrapper.hdf.
+16:38:10 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_2.
+16:38:27 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:38:32 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646025A" && level==0} -index 0' command is executed.
+16:38:34 INFO  : FPGA configured successfully with bitstream "W:/GAMEtimer/ver1.4_timer/ver1.4_timer.sdk/design_1_wrapper_hw_platform_2/download.bit"
+16:38:43 INFO  : Processor reset is completed for microblaze_0
+16:39:12 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:39:13 INFO  : Processor reset is completed for microblaze_0
+16:39:44 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:39:46 INFO  : Processor reset is completed for microblaze_0
+16:42:52 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:42:54 INFO  : Processor reset is completed for microblaze_0
+16:43:30 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+15:15:11 INFO  : Launching XSDB server: xsdb.bat -interactive W:\GAMEtimer\ver1.5_multiplayer\ver1.5_multiplayer.sdk\temp_xsdb_launch_script.tcl
+15:15:14 INFO  : XSDB server has started successfully.
+15:15:19 INFO  : Processing command line option -hwspec W:/GAMEtimer/ver1.5_multiplayer/ver1.5_multiplayer.sdk/design_1_wrapper.hdf.
+15:16:02 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:16:04 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646025A" && level==0} -index 0' command is executed.
+15:16:06 INFO  : FPGA configured successfully with bitstream "W:/GAMEtimer/ver1.5_multiplayer/ver1.5_multiplayer.sdk/design_1_wrapper_hw_platform_3/download.bit"
+15:25:30 INFO  : Processor reset is completed for microblaze_0
+15:26:32 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:26:32 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646025A" && level==0} -index 0' command is executed.
+15:26:35 INFO  : FPGA configured successfully with bitstream "W:/GAMEtimer/ver1.5_multiplayer/ver1.5_multiplayer.sdk/design_1_wrapper_hw_platform_3/download.bit"
+15:26:51 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:26:54 INFO  : Processor reset is completed for microblaze_0
+15:27:25 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+15:41:24 INFO  : Launching XSDB server: xsdb.bat -interactive W:\GAMEtimer\ver1.5_multiplayer\ver1.5_multiplayer.sdk\temp_xsdb_launch_script.tcl
+15:41:25 INFO  : XSDB server has started successfully.
+15:41:25 INFO  : Processing command line option -hwspec W:/GAMEtimer/ver1.5_multiplayer/ver1.5_multiplayer.sdk/design_1_wrapper.hdf.
+15:41:25 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_3.
+15:41:26 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1490816457168,  Project:1490814764274
+15:41:26 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_3' is different from W:/GAMEtimer/ver1.5_multiplayer/ver1.5_multiplayer.sdk/design_1_wrapper.hdf.
+15:41:26 INFO  : Copied contents of W:/GAMEtimer/ver1.5_multiplayer/ver1.5_multiplayer.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_3\system.hdf.
+15:41:27 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+15:41:27 INFO  : Clearing existing target manager status.
+15:41:28 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+15:41:28 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+15:41:45 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:41:50 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646025A" && level==0} -index 0' command is executed.
+15:41:52 INFO  : FPGA configured successfully with bitstream "W:/GAMEtimer/ver1.5_multiplayer/ver1.5_multiplayer.sdk/design_1_wrapper_hw_platform_3/download.bit"
+15:42:08 INFO  : Processor reset is completed for microblaze_0
+15:43:44 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:43:45 INFO  : Processor reset is completed for microblaze_0
+15:51:58 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:52:03 INFO  : Processor reset is completed for microblaze_0
+15:57:04 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:57:06 INFO  : Processor reset is completed for microblaze_0
+16:01:28 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:01:32 INFO  : Processor reset is completed for microblaze_0
+16:04:23 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:04:24 INFO  : Processor reset is completed for microblaze_0
+16:20:17 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+16:21:38 INFO  : Launching XSDB server: xsdb.bat -interactive W:\GAMEtimer\ver1.5_multiplayer\ver1.5_multiplayer.sdk\temp_xsdb_launch_script.tcl
+16:21:39 INFO  : XSDB server has started successfully.
+16:21:40 INFO  : Processing command line option -hwspec W:/GAMEtimer/ver1.5_multiplayer/ver1.5_multiplayer.sdk/design_1_wrapper.hdf.
+16:21:40 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_3.
+16:21:41 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1490818792806,  Project:1490816457168
+16:21:41 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_3' is different from W:/GAMEtimer/ver1.5_multiplayer/ver1.5_multiplayer.sdk/design_1_wrapper.hdf.
+16:21:41 INFO  : Copied contents of W:/GAMEtimer/ver1.5_multiplayer/ver1.5_multiplayer.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_3\system.hdf.
+16:21:42 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+16:21:42 INFO  : Clearing existing target manager status.
+16:21:42 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+16:21:42 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+16:22:02 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:22:07 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646025A" && level==0} -index 0' command is executed.
+16:22:09 INFO  : FPGA configured successfully with bitstream "W:/GAMEtimer/ver1.5_multiplayer/ver1.5_multiplayer.sdk/design_1_wrapper_hw_platform_3/download.bit"
+16:22:28 INFO  : Processor reset is completed for microblaze_0
+16:26:12 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:26:17 INFO  : Processor reset is completed for microblaze_0
+16:30:21 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:30:22 INFO  : Processor reset is completed for microblaze_0
+17:27:14 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1490822800664,  Project:1490818792806
+17:27:14 INFO  : Project design_1_wrapper_hw_platform_3's source hardware specification located at W:/GAMEtimer/ver1.5_multiplayer/ver1.5_multiplayer.sdk/design_1_wrapper.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+17:27:17 INFO  : Project design_1_wrapper_hw_platform_3's source hardware specification location will not be monitored anymore.
+17:27:23 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+17:27:31 INFO  : Launching XSDB server: xsdb.bat -interactive W:\GAMEtimer\ver1.5_multiplayer\ver1.5_multiplayer.sdk\temp_xsdb_launch_script.tcl
+17:27:32 INFO  : XSDB server has started successfully.
+17:27:34 INFO  : Processing command line option -hwspec W:/GAMEtimer/ver1.5_multiplayer/ver1.5_multiplayer.sdk/design_1_wrapper.hdf.
+17:28:03 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:28:09 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646025A" && level==0} -index 0' command is executed.
+17:28:11 INFO  : FPGA configured successfully with bitstream "W:/GAMEtimer/ver1.5_multiplayer/ver1.5_multiplayer.sdk/design_1_wrapper_hw_platform_4/download.bit"
+17:28:46 INFO  : Processor reset is completed for microblaze_0
+17:31:02 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:31:17 INFO  : Processor reset is completed for microblaze_0
+17:37:03 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+18:02:34 INFO  : Launching XSDB server: xsdb.bat -interactive W:\GAMEtimer\ver1.5_multiplayer\ver1.5_multiplayer.sdk\temp_xsdb_launch_script.tcl
+18:02:35 INFO  : XSDB server has started successfully.
+18:02:37 INFO  : Processing command line option -hwspec W:/GAMEtimer/ver1.5_multiplayer/ver1.5_multiplayer.sdk/design_1_wrapper.hdf.
+18:02:37 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_4.
+18:02:37 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1490824912563,  Project:1490822800664
+18:02:37 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_4' is different from W:/GAMEtimer/ver1.5_multiplayer/ver1.5_multiplayer.sdk/design_1_wrapper.hdf.
+18:02:37 INFO  : Copied contents of W:/GAMEtimer/ver1.5_multiplayer/ver1.5_multiplayer.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_4\system.hdf.
+18:02:38 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+18:02:39 INFO  : Clearing existing target manager status.
+18:02:40 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+18:02:40 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+18:03:15 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:03:20 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646025A" && level==0} -index 0' command is executed.
+18:03:23 INFO  : FPGA configured successfully with bitstream "W:/GAMEtimer/ver1.5_multiplayer/ver1.5_multiplayer.sdk/design_1_wrapper_hw_platform_4/download.bit"
+18:04:24 INFO  : Processor reset is completed for microblaze_0
+18:10:28 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+15:34:34 INFO  : Launching XSDB server: xsdb.bat -interactive W:\GAMEtimer\ver1.5_multiplayer\ver1.5_multiplayer.sdk\temp_xsdb_launch_script.tcl
+15:34:35 INFO  : XSDB server has started successfully.
+15:34:39 INFO  : Processing command line option -hwspec W:/GAMEtimer/ver1.5_multiplayer/ver1.5_multiplayer.sdk/design_1_wrapper.hdf.
+15:34:41 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_4.
+15:35:07 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:35:09 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646025A" && level==0} -index 0' command is executed.
+15:35:11 INFO  : FPGA configured successfully with bitstream "W:/GAMEtimer/ver1.5_multiplayer/ver1.5_multiplayer.sdk/design_1_wrapper_hw_platform_4/download.bit"
+15:35:28 INFO  : Processor reset is completed for microblaze_0
+15:58:42 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1490903907078,  Project:1490824912563
+15:58:42 INFO  : Project design_1_wrapper_hw_platform_4's source hardware specification located at W:/GAMEtimer/ver1.5_multiplayer/ver1.5_multiplayer.sdk/design_1_wrapper.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+15:58:46 INFO  : Copied contents of W:/GAMEtimer/ver1.5_multiplayer/ver1.5_multiplayer.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_4\system.hdf.
+15:58:46 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+15:58:46 INFO  : Clearing existing target manager status.
+15:58:46 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+15:58:46 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+15:59:05 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:59:05 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646025A" && level==0} -index 0' command is executed.
+15:59:07 INFO  : FPGA configured successfully with bitstream "W:/GAMEtimer/ver1.5_multiplayer/ver1.5_multiplayer.sdk/design_1_wrapper_hw_platform_4/download.bit"
+16:01:48 INFO  : Processor reset is completed for microblaze_0
+16:01:50 ERROR : Port COM5 is already in use.
+16:01:50 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Cannot perform the Debug Command, Current Processor State is "Running"
+
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(TM.java:686)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(AppRunner.java:129)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:637)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+16:18:48 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+17:45:03 INFO  : Launching XSDB server: xsdb.bat -interactive W:\GAMEtimer\ver1.5_multiplayer\ver1.5_multiplayer.sdk\temp_xsdb_launch_script.tcl
+17:45:04 INFO  : XSDB server has started successfully.
+17:45:07 INFO  : Processing command line option -hwspec W:/GAMEtimer/ver1.5_multiplayer/ver1.5_multiplayer.sdk/design_1_wrapper.hdf.
+17:45:07 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_4.
+17:45:08 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1490910197100,  Project:1490903907078
+17:45:08 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_4' is different from W:/GAMEtimer/ver1.5_multiplayer/ver1.5_multiplayer.sdk/design_1_wrapper.hdf.
+17:45:08 INFO  : Copied contents of W:/GAMEtimer/ver1.5_multiplayer/ver1.5_multiplayer.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_4\system.hdf.
+17:45:08 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+17:45:08 INFO  : Clearing existing target manager status.
+17:45:09 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+17:45:09 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+17:45:40 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:45:40 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646025A" && level==0} -index 0' command is executed.
+17:45:42 INFO  : FPGA configured successfully with bitstream "W:/GAMEtimer/ver1.5_multiplayer/ver1.5_multiplayer.sdk/design_1_wrapper_hw_platform_4/download.bit"
+17:45:51 INFO  : Processor reset is completed for microblaze_0
+17:47:29 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:59:16 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:59:18 INFO  : Processor reset is completed for microblaze_0
+18:21:08 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1490912433635,  Project:1490910197100
+18:21:08 INFO  : Project design_1_wrapper_hw_platform_4's source hardware specification located at W:/GAMEtimer/ver1.5_multiplayer/ver1.5_multiplayer.sdk/design_1_wrapper.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+18:21:10 INFO  : Copied contents of W:/GAMEtimer/ver1.5_multiplayer/ver1.5_multiplayer.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_4\system.hdf.
+18:21:10 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+18:21:10 INFO  : Clearing existing target manager status.
+18:21:10 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+18:21:10 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+18:21:28 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:21:28 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646025A" && level==0} -index 0' command is executed.
+18:21:31 INFO  : FPGA configured successfully with bitstream "W:/GAMEtimer/ver1.5_multiplayer/ver1.5_multiplayer.sdk/design_1_wrapper_hw_platform_4/download.bit"
+18:53:43 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1490914382802,  Project:1490912433635
+18:53:43 INFO  : Project design_1_wrapper_hw_platform_4's source hardware specification located at W:/GAMEtimer/ver1.5_multiplayer/ver1.5_multiplayer.sdk/design_1_wrapper.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+18:53:44 INFO  : Copied contents of W:/GAMEtimer/ver1.5_multiplayer/ver1.5_multiplayer.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_4\system.hdf.
+18:53:45 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+18:53:45 INFO  : Clearing existing target manager status.
+18:53:45 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+18:53:45 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+18:54:07 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:54:07 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646025A" && level==0} -index 0' command is executed.
+18:54:09 INFO  : FPGA configured successfully with bitstream "W:/GAMEtimer/ver1.5_multiplayer/ver1.5_multiplayer.sdk/design_1_wrapper_hw_platform_4/download.bit"
+19:22:53 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1490916154890,  Project:1490914382802
+19:22:53 INFO  : Project design_1_wrapper_hw_platform_4's source hardware specification located at W:/GAMEtimer/ver1.5_multiplayer/ver1.5_multiplayer.sdk/design_1_wrapper.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+19:22:54 INFO  : Copied contents of W:/GAMEtimer/ver1.5_multiplayer/ver1.5_multiplayer.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_4\system.hdf.
+19:22:54 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+19:22:54 INFO  : Clearing existing target manager status.
+19:22:54 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+19:22:54 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+19:23:09 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:23:09 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646025A" && level==0} -index 0' command is executed.
+19:23:11 INFO  : FPGA configured successfully with bitstream "W:/GAMEtimer/ver1.5_multiplayer/ver1.5_multiplayer.sdk/design_1_wrapper_hw_platform_4/download.bit"
+19:49:52 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1490917770187,  Project:1490916154890
+19:49:52 INFO  : Project design_1_wrapper_hw_platform_4's source hardware specification located at W:/GAMEtimer/ver1.5_multiplayer/ver1.5_multiplayer.sdk/design_1_wrapper.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+19:49:56 INFO  : Copied contents of W:/GAMEtimer/ver1.5_multiplayer/ver1.5_multiplayer.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_4\system.hdf.
+19:49:57 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+19:49:57 INFO  : Clearing existing target manager status.
+19:49:57 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+19:49:57 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+19:50:13 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:50:13 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646025A" && level==0} -index 0' command is executed.
+19:50:15 INFO  : FPGA configured successfully with bitstream "W:/GAMEtimer/ver1.5_multiplayer/ver1.5_multiplayer.sdk/design_1_wrapper_hw_platform_4/download.bit"
+20:13:50 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1490918893550,  Project:1490917770187
+20:13:50 INFO  : Project design_1_wrapper_hw_platform_4's source hardware specification located at W:/GAMEtimer/ver1.5_multiplayer/ver1.5_multiplayer.sdk/design_1_wrapper.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+20:13:58 INFO  : Copied contents of W:/GAMEtimer/ver1.5_multiplayer/ver1.5_multiplayer.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_4\system.hdf.
+20:13:59 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+20:13:59 INFO  : Clearing existing target manager status.
+20:13:59 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+20:13:59 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+20:14:15 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:14:15 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646025A" && level==0} -index 0' command is executed.
+20:14:17 INFO  : FPGA configured successfully with bitstream "W:/GAMEtimer/ver1.5_multiplayer/ver1.5_multiplayer.sdk/design_1_wrapper_hw_platform_4/download.bit"
+20:33:06 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1490920340815,  Project:1490918893550
+20:33:06 INFO  : Project design_1_wrapper_hw_platform_4's source hardware specification located at W:/GAMEtimer/ver1.5_multiplayer/ver1.5_multiplayer.sdk/design_1_wrapper.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+20:33:07 INFO  : Copied contents of W:/GAMEtimer/ver1.5_multiplayer/ver1.5_multiplayer.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_4\system.hdf.
+20:33:08 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+20:33:08 INFO  : Clearing existing target manager status.
+20:33:08 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+20:33:08 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+20:33:22 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:33:22 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646025A" && level==0} -index 0' command is executed.
+20:33:24 INFO  : FPGA configured successfully with bitstream "W:/GAMEtimer/ver1.5_multiplayer/ver1.5_multiplayer.sdk/design_1_wrapper_hw_platform_4/download.bit"
+20:52:50 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1490921429986,  Project:1490920340815
+20:52:50 INFO  : Project design_1_wrapper_hw_platform_4's source hardware specification located at W:/GAMEtimer/ver1.5_multiplayer/ver1.5_multiplayer.sdk/design_1_wrapper.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+20:52:55 INFO  : Copied contents of W:/GAMEtimer/ver1.5_multiplayer/ver1.5_multiplayer.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_4\system.hdf.
+20:52:56 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+20:52:56 INFO  : Clearing existing target manager status.
+20:52:56 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+20:52:56 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+20:53:11 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:53:11 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646025A" && level==0} -index 0' command is executed.
+20:53:13 INFO  : FPGA configured successfully with bitstream "W:/GAMEtimer/ver1.5_multiplayer/ver1.5_multiplayer.sdk/design_1_wrapper_hw_platform_4/download.bit"
+21:02:00 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+11:22:55 INFO  : Launching XSDB server: xsdb.bat -interactive W:\GAMEtimer\ver1.5_multiplayer\ver1.5_multiplayer.sdk\temp_xsdb_launch_script.tcl
+11:22:56 INFO  : XSDB server has started successfully.
+11:23:01 INFO  : Processing command line option -hwspec W:/GAMEtimer/ver1.5_multiplayer/ver1.5_multiplayer.sdk/design_1_wrapper.hdf.
+11:23:03 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_4.
+11:23:03 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1490921430000,  Project:1490921429986
+11:23:03 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_4' is different from W:/GAMEtimer/ver1.5_multiplayer/ver1.5_multiplayer.sdk/design_1_wrapper.hdf.
+11:23:07 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1490733378000,  Project:1490733376767
+11:23:07 INFO  : Project design_1_wrapper_hw_platform_2's source hardware specification located at W:/GAMEtimer/ver1.4_timer/ver1.4_timer.sdk/design_1_wrapper.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+11:23:14 INFO  : Copied contents of W:/GAMEtimer/ver1.4_timer/ver1.4_timer.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_2\system.hdf.
+11:23:14 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+11:23:14 INFO  : Clearing existing target manager status.
+11:23:15 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+11:23:15 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+11:23:15 INFO  : Copied contents of W:/GAMEtimer/ver1.5_multiplayer/ver1.5_multiplayer.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_4\system.hdf.
+11:23:17 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+11:23:17 INFO  : Clearing existing target manager status.
+11:23:17 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+11:23:17 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+11:23:56 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:23:57 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646025A" && level==0} -index 0' command is executed.
+11:24:00 INFO  : FPGA configured successfully with bitstream "W:/GAMEtimer/ver1.5_multiplayer/ver1.5_multiplayer.sdk/design_1_wrapper_hw_platform_4/download.bit"
+11:44:37 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1490975063439,  Project:1490921430000
+11:44:37 INFO  : Project design_1_wrapper_hw_platform_4's source hardware specification located at W:/GAMEtimer/ver1.5_multiplayer/ver1.5_multiplayer.sdk/design_1_wrapper.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+11:44:45 INFO  : Copied contents of W:/GAMEtimer/ver1.5_multiplayer/ver1.5_multiplayer.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_4\system.hdf.
+11:44:46 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+11:44:46 INFO  : Clearing existing target manager status.
+11:44:46 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+11:44:46 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+11:45:03 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:45:03 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646025A" && level==0} -index 0' command is executed.
+11:45:05 INFO  : FPGA configured successfully with bitstream "W:/GAMEtimer/ver1.5_multiplayer/ver1.5_multiplayer.sdk/design_1_wrapper_hw_platform_4/download.bit"
+11:45:22 INFO  : Processor reset is completed for microblaze_0
+12:25:46 INFO  : Launching XSDB server: xsdb.bat -interactive W:\GAMEtimer\ver1.6_multiscore\ver1.6_multiscore.sdk\temp_xsdb_launch_script.tcl
+12:25:48 INFO  : XSDB server has started successfully.
+12:25:50 INFO  : Processing command line option -hwspec W:/GAMEtimer/ver1.6_multiscore/ver1.6_multiscore.sdk/design_1_wrapper.hdf.
+12:25:53 ERROR : Error occurred while creating hardware platform design_1_wrapper_hw_platform_5 from sysdef
+org.eclipse.core.internal.resources.ResourceException: Resource '/design_1_wrapper_hw_platform_5/system.hdf' already exists.
+	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:313)
+	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:300)
+	at org.eclipse.core.internal.resources.File.create(File.java:106)
+	at com.xilinx.sdk.hw.internal.HwProjectCreator.createHwProjectFromZip(HwProjectCreator.java:103)
+	at com.xilinx.sdk.hw.HwProjectUtil.internalCreate(HwProjectUtil.java:189)
+	at com.xilinx.sdk.hw.HwProjectUtil.makeNewHardwareProject(HwProjectUtil.java:138)
+	at com.xilinx.sdk.hw.HwProjectUtil.makeNewHardwareProject(HwProjectUtil.java:125)
+	at com.xilinx.sdk.hw.HwProjectUtil.makeNewHardwareProject(HwProjectUtil.java:100)
+	at com.xilinx.sdk.startup.InitSDK.processHwSpecArgumentTask(InitSDK.java:436)
+	at com.xilinx.sdk.startup.InitSDK.access$7(InitSDK.java:418)
+	at com.xilinx.sdk.startup.InitSDK$12.run(InitSDK.java:369)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+12:25:53 ERROR : Unable to create Hardware Specification Project with specification file: W:/GAMEtimer/ver1.6_multiscore/ver1.6_multiscore.sdk/design_1_wrapper.hdf
+12:26:14 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:26:15 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646025A" && level==0} -index 0' command is executed.
+12:26:17 INFO  : FPGA configured successfully with bitstream "W:/GAMEtimer/ver1.6_multiscore/ver1.6_multiscore.sdk/design_1_wrapper_hw_platform_5/download.bit"
+12:26:26 INFO  : Processor reset is completed for microblaze_0
+12:26:52 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+12:26:53 INFO  : Processor reset is completed for microblaze_0
+12:27:10 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+12:27:11 INFO  : Processor reset is completed for microblaze_0
+12:27:40 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:27:40 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646025A" && level==0} -index 0' command is executed.
+12:27:43 INFO  : FPGA configured successfully with bitstream "W:/GAMEtimer/ver1.6_multiscore/ver1.6_multiscore.sdk/design_1_wrapper_hw_platform_5/download.bit"
+12:28:05 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:28:05 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646025A" && level==0} -index 0' command is executed.
+12:28:08 INFO  : FPGA configured successfully with bitstream "W:/GAMEtimer/ver1.6_multiscore/ver1.6_multiscore.sdk/design_1_wrapper_hw_platform_4/download.bit"
+12:28:16 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+12:28:17 INFO  : Processor reset is completed for microblaze_0
+13:02:52 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+13:02:59 INFO  : Launching XSDB server: xsdb.bat -interactive W:\GAMEtimer\ver1.6_multiscore\ver1.6_multiscore.sdk\temp_xsdb_launch_script.tcl
+13:03:00 INFO  : XSDB server has started successfully.
+13:03:01 INFO  : Processing command line option -hwspec W:/GAMEtimer/ver1.6_multiscore/ver1.6_multiscore.sdk/design_1_wrapper.hdf.
+13:05:17 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:05:22 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646025A" && level==0} -index 0' command is executed.
+13:05:23 ERROR : 'fpga -file W:/GAMEtimer/ver1.6_multiscore/ver1.6_multiscore.sdk/design_1_wrapper_hw_platform_4/download.bit' is cancelled.
+13:05:40 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:05:40 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646025A" && level==0} -index 0' command is executed.
+13:05:42 INFO  : FPGA configured successfully with bitstream "W:/GAMEtimer/ver1.6_multiscore/ver1.6_multiscore.sdk/design_1_wrapper_hw_platform_7/download.bit"
+13:05:54 INFO  : Processor reset is completed for microblaze_0
+13:06:10 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+13:06:11 INFO  : Processor reset is completed for microblaze_0
+13:08:33 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+13:08:34 INFO  : Processor reset is completed for microblaze_0
+13:21:05 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+13:24:28 INFO  : Launching XSDB server: xsdb.bat -interactive W:\GAMEtimer\ver1.6_multiscore\ver1.6_multiscore.sdk\temp_xsdb_launch_script.tcl
+13:24:29 INFO  : XSDB server has started successfully.
+13:24:29 INFO  : Processing command line option -hwspec W:/GAMEtimer/ver1.6_multiscore/ver1.6_multiscore.sdk/design_1_wrapper.hdf.
+13:24:29 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_7.
+13:24:30 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1490980968783,  Project:1490979735733
+13:24:30 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_7' is different from W:/GAMEtimer/ver1.6_multiscore/ver1.6_multiscore.sdk/design_1_wrapper.hdf.
+13:24:30 INFO  : Copied contents of W:/GAMEtimer/ver1.6_multiscore/ver1.6_multiscore.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_7\system.hdf.
+13:24:30 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+13:24:30 INFO  : Clearing existing target manager status.
+13:24:31 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+13:24:31 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+13:24:56 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:25:01 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646025A" && level==0} -index 0' command is executed.
+13:25:03 INFO  : FPGA configured successfully with bitstream "W:/GAMEtimer/ver1.6_multiscore/ver1.6_multiscore.sdk/design_1_wrapper_hw_platform_7/download.bit"
+13:25:27 INFO  : Processor reset is completed for microblaze_0
+13:28:25 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+13:37:01 INFO  : Launching XSDB server: xsdb.bat -interactive W:\GAMEtimer\ver1.6_multiscore\ver1.6_multiscore.sdk\temp_xsdb_launch_script.tcl
+13:37:02 INFO  : XSDB server has started successfully.
+13:37:02 INFO  : Processing command line option -hwspec W:/GAMEtimer/ver1.6_multiscore/ver1.6_multiscore.sdk/design_1_wrapper.hdf.
+13:37:02 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_7.
+13:37:03 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1490981784760,  Project:1490980968783
+13:37:03 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_7' is different from W:/GAMEtimer/ver1.6_multiscore/ver1.6_multiscore.sdk/design_1_wrapper.hdf.
+13:37:03 INFO  : Copied contents of W:/GAMEtimer/ver1.6_multiscore/ver1.6_multiscore.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_7\system.hdf.
+13:37:04 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+13:37:04 INFO  : Clearing existing target manager status.
+13:37:05 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+13:37:05 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+13:38:26 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:38:31 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646025A" && level==0} -index 0' command is executed.
+13:38:33 INFO  : FPGA configured successfully with bitstream "W:/GAMEtimer/ver1.6_multiscore/ver1.6_multiscore.sdk/design_1_wrapper_hw_platform_7/download.bit"
+13:38:44 INFO  : Processor reset is completed for microblaze_0
+13:40:36 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+13:40:37 INFO  : Processor reset is completed for microblaze_0
+13:52:28 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+13:52:42 INFO  : Launching XSDB server: xsdb.bat -interactive W:\GAMEtimer\ver1.6_multiscore\ver1.6_multiscore.sdk\temp_xsdb_launch_script.tcl
+13:52:43 INFO  : XSDB server has started successfully.
+13:52:43 INFO  : Processing command line option -hwspec W:/GAMEtimer/ver1.6_multiscore/ver1.6_multiscore.sdk/design_1_wrapper.hdf.
+13:52:43 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_7.
+13:52:44 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1490982729057,  Project:1490981784760
+13:52:44 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_7' is different from W:/GAMEtimer/ver1.6_multiscore/ver1.6_multiscore.sdk/design_1_wrapper.hdf.
+13:52:44 INFO  : Copied contents of W:/GAMEtimer/ver1.6_multiscore/ver1.6_multiscore.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_7\system.hdf.
+13:52:45 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+13:52:45 INFO  : Clearing existing target manager status.
+13:52:46 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+13:52:46 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+13:53:09 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:53:14 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646025A" && level==0} -index 0' command is executed.
+13:53:16 INFO  : FPGA configured successfully with bitstream "W:/GAMEtimer/ver1.6_multiscore/ver1.6_multiscore.sdk/design_1_wrapper_hw_platform_7/download.bit"
+13:53:47 INFO  : Processor reset is completed for microblaze_0
+13:59:48 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+13:59:49 INFO  : Processor reset is completed for microblaze_0
+14:01:02 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+14:01:03 INFO  : Processor reset is completed for microblaze_0
+14:05:37 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+14:05:39 INFO  : Processor reset is completed for microblaze_0
+14:14:31 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+14:14:33 INFO  : Processor reset is completed for microblaze_0
+14:16:02 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+14:16:03 INFO  : Processor reset is completed for microblaze_0
+14:16:26 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+14:16:27 INFO  : Processor reset is completed for microblaze_0
+14:18:12 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+14:18:13 INFO  : Processor reset is completed for microblaze_0
+14:18:33 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+14:18:34 INFO  : Processor reset is completed for microblaze_0
+14:24:41 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+14:24:43 INFO  : Processor reset is completed for microblaze_0
+14:50:26 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+14:50:27 INFO  : Processor reset is completed for microblaze_0
+14:51:21 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+14:51:23 INFO  : Processor reset is completed for microblaze_0
+14:52:04 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+14:52:05 INFO  : Processor reset is completed for microblaze_0
+14:52:23 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+14:52:24 INFO  : Processor reset is completed for microblaze_0
+14:54:20 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+14:54:22 INFO  : Processor reset is completed for microblaze_0
+14:57:22 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+14:57:30 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+14:57:31 INFO  : Processor reset is completed for microblaze_0
+14:58:13 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+14:58:14 INFO  : Processor reset is completed for microblaze_0
+15:01:29 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:01:31 INFO  : Processor reset is completed for microblaze_0
+15:35:23 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+15:55:05 INFO  : Launching XSDB server: xsdb.bat -interactive W:\GAMEtimer\ver1.6_multiscore\ver1.6_multiscore.sdk\temp_xsdb_launch_script.tcl
+15:55:07 INFO  : XSDB server has started successfully.
+15:55:09 INFO  : Processing command line option -hwspec W:/GAMEtimer/ver1.6_multiscore/ver1.6_multiscore.sdk/design_1_wrapper.hdf.
+15:55:09 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_7.
+15:55:10 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1490985501038,  Project:1490982729057
+15:55:10 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_7' is different from W:/GAMEtimer/ver1.6_multiscore/ver1.6_multiscore.sdk/design_1_wrapper.hdf.
+15:55:10 INFO  : Copied contents of W:/GAMEtimer/ver1.6_multiscore/ver1.6_multiscore.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_7\system.hdf.
+15:55:11 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+15:55:11 INFO  : Clearing existing target manager status.
+15:55:11 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+15:55:11 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+15:57:51 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:29:39 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:29:39 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646023A" && level==0} -index 0' command is executed.
+16:29:41 INFO  : FPGA configured successfully with bitstream "W:/GAMEtimer/ver1.6_multiscore/ver1.6_multiscore.sdk/design_1_wrapper_hw_platform_7/download.bit"
+16:30:04 ERROR : Checking FPGA configuration failed..Connection to Board Failed
+
+
+    Unknown Error Occured
+    Cable is not powered-on
+
+16:30:05 ERROR : Unexpected error while launching program.
+com.xilinx.sdk.targetmanager.TMException: Connection to Board Failed
+
+
+    Unknown Error Occured
+    Cable is not powered-on
+
+	at com.xilinx.sdk.targetmanager.internal.TM.isFPGAConfigured(TM.java:374)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.isFpgaConfigured(XilinxAppLaunchConfigurationDelegate.java:409)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:303)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+16:30:48 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:30:48 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646023A" && level==0} -index 0' command is executed.
+16:30:50 INFO  : FPGA configured successfully with bitstream "W:/GAMEtimer/ver1.6_multiscore/ver1.6_multiscore.sdk/design_1_wrapper_hw_platform_7/download.bit"
+16:31:03 ERROR : Checking FPGA configuration failed..Connection to Board Failed
+
+
+    Unknown Error Occured
+    Cable is not powered-on
+
+16:31:03 ERROR : Unexpected error while launching program.
+com.xilinx.sdk.targetmanager.TMException: Connection to Board Failed
+
+
+    Unknown Error Occured
+    Cable is not powered-on
+
+	at com.xilinx.sdk.targetmanager.internal.TM.isFPGAConfigured(TM.java:374)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.isFpgaConfigured(XilinxAppLaunchConfigurationDelegate.java:409)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:303)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+16:32:07 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:32:11 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646023A" && level==0} -index 0' command is executed.
+16:32:13 INFO  : FPGA configured successfully with bitstream "W:/GAMEtimer/ver1.6_multiscore/ver1.6_multiscore.sdk/design_1_wrapper_hw_platform_7/download.bit"
+16:32:19 ERROR : Checking FPGA configuration failed..Connection to Board Failed
+
+
+    Unknown Error Occured
+    Cable is not powered-on
+
+16:32:19 ERROR : Unexpected error while launching program.
+com.xilinx.sdk.targetmanager.TMException: Connection to Board Failed
+
+
+    Unknown Error Occured
+    Cable is not powered-on
+
+	at com.xilinx.sdk.targetmanager.internal.TM.isFPGAConfigured(TM.java:374)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.isFpgaConfigured(XilinxAppLaunchConfigurationDelegate.java:409)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:303)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+16:32:31 ERROR : Checking FPGA configuration failed..Connection to Board Failed
+
+
+    Unknown Error Occured
+    Cable is not powered-on
+
+16:32:31 ERROR : Unexpected error while launching program.
+com.xilinx.sdk.targetmanager.TMException: Connection to Board Failed
+
+
+    Unknown Error Occured
+    Cable is not powered-on
+
+	at com.xilinx.sdk.targetmanager.internal.TM.isFPGAConfigured(TM.java:374)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.isFpgaConfigured(XilinxAppLaunchConfigurationDelegate.java:409)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:303)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+16:32:41 ERROR : Checking FPGA configuration failed..Connection to Board Failed
+
+
+    Unknown Error Occured
+    Cable is not powered-on
+
+16:32:41 ERROR : Unexpected error while launching program.
+com.xilinx.sdk.targetmanager.TMException: Connection to Board Failed
+
+
+    Unknown Error Occured
+    Cable is not powered-on
+
+	at com.xilinx.sdk.targetmanager.internal.TM.isFPGAConfigured(TM.java:374)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.isFpgaConfigured(XilinxAppLaunchConfigurationDelegate.java:409)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:303)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+16:33:11 ERROR : Checking FPGA configuration failed..Connection to Board Failed
+
+
+    Unknown Error Occured
+    Cable is not powered-on
+
+16:33:11 ERROR : Unexpected error while launching program.
+com.xilinx.sdk.targetmanager.TMException: Connection to Board Failed
+
+
+    Unknown Error Occured
+    Cable is not powered-on
+
+	at com.xilinx.sdk.targetmanager.internal.TM.isFPGAConfigured(TM.java:374)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.isFpgaConfigured(XilinxAppLaunchConfigurationDelegate.java:409)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:303)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+16:33:20 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+16:33:41 INFO  : Launching XSDB server: xsdb.bat -interactive W:\GAMEtimer\ver1.6_multiscore\ver1.6_multiscore.sdk\temp_xsdb_launch_script.tcl
+16:33:42 INFO  : XSDB server has started successfully.
+16:33:43 INFO  : Processing command line option -hwspec W:/GAMEtimer/ver1.6_multiscore/ver1.6_multiscore.sdk/design_1_wrapper.hdf.
+16:33:43 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_7.
+16:34:03 INFO  : Processor reset is completed for microblaze_0
+16:34:41 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:34:44 INFO  : Processor reset is completed for microblaze_0
+16:35:31 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:35:32 INFO  : Processor reset is completed for microblaze_0
+17:08:55 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:09:01 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646023A" && level==0} -index 0' command is executed.
+17:09:03 INFO  : FPGA configured successfully with bitstream "W:/GAMEtimer/ver1.6_multiscore/ver1.6_multiscore.sdk/design_1_wrapper_hw_platform_7/download.bit"
+17:09:16 INFO  : Processor reset is completed for microblaze_0
+17:21:04 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:21:04 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646023A" && level==0} -index 0' command is executed.
+17:21:06 INFO  : FPGA configured successfully with bitstream "W:/GAMEtimer/ver1.6_multiscore/ver1.6_multiscore.sdk/design_1_wrapper_hw_platform_7/download.bit"
+17:21:15 INFO  : Processor reset is completed for microblaze_0
+17:32:57 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+14:33:41 INFO  : Launching XSDB server: xsdb.bat -interactive W:\GAMEtimer\ver1.6_multiscore\ver1.6_multiscore.sdk\temp_xsdb_launch_script.tcl
+14:33:43 INFO  : XSDB server has started successfully.
+14:33:45 INFO  : Processing command line option -hwspec W:/GAMEtimer/ver1.6_multiscore/ver1.6_multiscore.sdk/design_1_wrapper.hdf.
+14:33:45 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_7.
+14:34:37 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:34:38 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646023A" && level==0} -index 0' command is executed.
+14:34:40 INFO  : FPGA configured successfully with bitstream "W:/GAMEtimer/ver1.6_multiscore/ver1.6_multiscore.sdk/design_1_wrapper_hw_platform_7/download.bit"
+14:38:14 INFO  : Processor reset is completed for microblaze_0
+14:38:15 ERROR : No such port: COM10
+14:39:02 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+14:39:36 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+14:39:37 INFO  : Processor reset is completed for microblaze_0
+14:39:37 ERROR : No such port: COM10
+14:39:54 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+14:39:55 INFO  : Processor reset is completed for microblaze_0
+14:44:03 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+14:44:04 INFO  : Processor reset is completed for microblaze_0
